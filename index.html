@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="color-scheme" content="dark" />
+	<meta name="theme-color" content="#12072a" />
+
+	<title>Alexander Tanin — Web Developer</title>
+	<meta name="description"
+		content="Минималистичный лендинг-портфолио: представляю себя как WEB‑разработчик (frontend/fullstack)." />
+
+	<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+	<link rel="stylesheet" href="main.css" />
+	<script defer src="main.js"></script>
+</head>
+
+<body>
+	<!-- Skip link for keyboard users -->
+	<a class="skip" href="#content">К контенту</a>
+
+	<header class="site-header" id="top">
+		<div class="container header__inner">
+			<a class="logo" href="#top" aria-label="На главную">
+				<span class="logo__dot" aria-hidden="true"></span>
+				<span class="logo__text">Alexander Tanin</span>
+			</a>
+
+			<nav class="nav" aria-label="Разделы">
+				<button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">
+					<span class="nav-toggle__line"></span>
+					<span class="nav-toggle__line"></span>
+					<span class="nav-toggle__line"></span>
+				</button>
+				<a class="nav__link" href="#about">Обо мне</a>
+				<a class="nav__link" href="#projects">Проекты</a>
+				<a class="nav__link" href="#contact">Контакты</a>
+				<a class="btn btn--primary btn--small" href="#contact">Связаться</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="content" class="screen-scroll" tabindex="-1">
+		<section class="screen screen--hero" id="home" data-screen aria-label="Главный экран">
+			<div class="hero__accent" aria-hidden="true">\</div>
+			<div class="container section__grid hero__grid">
+				<div class="hero__copy">
+					<p class="kicker">WEB DEVELOPER</p>
+					<h1 class="hero__name">Alexander Tanin</h1>
+					<p class="hero__role">Frontend / Full‑Stack разработчик</p>
+					<p class="hero__text">
+						Создаю быстрые, минималистичные сайты и веб‑сервисы: от идеи и дизайна до
+						разработки и деплоя.
+					</p>
+
+					<div class="actions">
+						<a class="btn btn--primary" href="#contact">Связаться</a>
+						<a class="btn btn--ghost" href="#projects">Проекты</a>
+					</div>
+
+					<ul class="facts" aria-label="Коротко обо мне">
+						<li class="fact">
+							<span class="fact__key">Фокус</span>
+							<span class="fact__val">скорость · UX · чистый код</span>
+						</li>
+						<li class="fact">
+							<span class="fact__key">Формат</span>
+							<span class="fact__val">удалённо / в команде</span>
+						</li>
+						<li class="fact">
+							<span class="fact__key">Результат</span>
+							<span class="fact__val">понятный интерфейс + стабильная работа</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="hero__tiles" aria-label="Что я делаю">
+					<article class="card tile tile--dev">
+						<span class="tile__dot" aria-hidden="true"></span>
+						<h3 class="tile__title">Разработка</h3>
+						<p class="tile__text">Лендинги, корпоративные сайты, личные кабинеты.</p>
+					</article>
+					<article class="card tile tile--seo">
+						<span class="tile__dot" aria-hidden="true"></span>
+						<h3 class="tile__title">Оптимизация</h3>
+						<p class="tile__text">Скорость, доступность, базовая SEO‑структура.</p>
+					</article>
+					<article class="card tile tile--support">
+						<span class="tile__dot" aria-hidden="true"></span>
+						<h3 class="tile__title">Поддержка</h3>
+						<p class="tile__text">Правки, улучшения, мониторинг, обновления.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="screen screen--about-projects" id="about" data-screen aria-label="Обо мне и проекты">
+			<div class="container about-projects-layout">
+				<div class="section__grid about-projects-layout__about">
+					<div class="about">
+						<h2 class="section__title">Обо мне</h2>
+						<p class="text">
+							Я WEB‑разработчик, который любит минимализм и порядок: понятная структура,
+							аккуратные отступы, продуманные состояния и предсказуемое поведение интерфейса.
+						</p>
+						<p class="text text--muted">
+							Работаю прозрачно: оцениваю сроки, разбиваю задачу на этапы и фиксирую результат
+							в каждом шаге.
+						</p>
+					</div>
+
+					<div class="card skills">
+						<h3 class="card__title">Навыки</h3>
+						<div class="skills-ribbon" aria-label="Список навыков">
+							<div class="skill-badge" data-tooltip="Разметка и структура страниц">
+								<i class="devicon-html5-plain colored" aria-hidden="true"></i>
+								<span>HTML5</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Стилизация, анимации, адаптив">
+								<i class="devicon-css3-plain colored" aria-hidden="true"></i>
+								<span>CSS3</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Интерактивность и логика на клиенте">
+								<i class="devicon-javascript-plain colored" aria-hidden="true"></i>
+								<span>JS</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Типизированный JavaScript">
+								<i class="devicon-typescript-plain colored" aria-hidden="true"></i>
+								<span>TS</span>
+							</div>
+							<div class="skill-badge" data-tooltip="UI-компоненты и SPA приложения">
+								<i class="devicon-react-original colored" aria-hidden="true"></i>
+								<span>React</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Серверная логика и REST API">
+								<i class="devicon-nodejs-plain colored" aria-hidden="true"></i>
+								<span>Node.js</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Контроль версий и командная работа">
+								<i class="devicon-git-plain colored" aria-hidden="true"></i>
+								<span>Git</span>
+							</div>
+							<div class="skill-badge" data-tooltip="Прототипирование и работа с макетами">
+								<i class="devicon-figma-plain colored" aria-hidden="true"></i>
+								<span>Figma</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="projects-block" id="projects" aria-label="Проекты">
+					<h2 class="section__title projects__title">Проекты</h2>
+
+					<div class="projects">
+						<article class="card project">
+							<h3 class="card__title">Landing для сервиса</h3>
+							<p class="text text--muted">
+								Лаконичный лендинг с акцентом на конверсию, скорость загрузки и чистую структуру.
+							</p>
+							<ul class="project__meta" aria-label="Технологии проекта">
+								<li class="chip chip--html">HTML</li>
+								<li class="chip chip--css">CSS Grid</li>
+								<li class="chip chip--js">JS</li>
+							</ul>
+						</article>
+
+						<article class="card project">
+							<h3 class="card__title">Панель управления</h3>
+							<p class="text text--muted">
+								Интерфейс личного кабинета с формами, таблицами и понятной навигацией для пользователя.
+							</p>
+							<ul class="project__meta" aria-label="Технологии проекта">
+								<li class="chip chip--ts">TypeScript</li>
+								<li class="chip chip--react">React</li>
+							</ul>
+						</article>
+
+						<article class="card project">
+							<h3 class="card__title">Сайт-каталог</h3>
+							<p class="text text--muted">
+								Каталог услуг с фильтрацией, быстрой выдачей и адаптивной сеткой карточек.
+							</p>
+							<ul class="project__meta" aria-label="Технологии проекта">
+								<li class="chip chip--node">Node.js</li>
+								<li class="chip chip--ssr">SSR</li>
+								<li class="chip chip--seo">SEO</li>
+							</ul>
+						</article>
+					</div>
+				</section>
+			</div>
+		</section>
+
+		<section class="screen screen--contact" id="contact" data-screen aria-label="Контакты">
+			<div class="container contact-layout">
+				<h2 class="section__title contact__title">Контакты</h2>
+				<div class="card contact">
+					<p class="text text--muted">
+						Напишите — отвечу и предложу следующий шаг (оценка, план, сроки).
+					</p>
+
+					<div class="contact__rows" role="list">
+						<div class="contact__row" role="listitem">
+							<span class="contact__label">Telegram</span>
+							<a class="contact__value" href="https://t.me/developer_py_py" target="_blank"
+								rel="noreferrer">@developer_py_py</a>
+						</div>
+
+						<div class="contact__row" role="listitem">
+							<span class="contact__label">Instagram</span>
+							<a class="contact__value" href="https://www.instagram.com/developer_py_py/" target="_blank"
+								rel="noreferrer">@developer_py_py</a>
+						</div>
+
+						<div class="contact__row" role="listitem">
+							<span class="contact__label">Email</span>
+							<a class="contact__value" href="mailto:sashatanin777@gmail.com">sashatanin777@gmail.com</a>
+							<button class="btn btn--ghost btn--small" type="button" data-copy="sashatanin777@gmail.com">
+								Копировать
+							</button>
+						</div>
+
+						<div class="contact__row" role="listitem">
+							<span class="contact__label">LinkedIn</span>
+							<a class="contact__value" href="https://www.linkedin.com/in/alex-tanin-978204325/"
+								target="_blank" rel="noreferrer">Alexander Tanin</a>
+						</div>
+
+						<div class="contact__row" role="listitem">
+							<span class="contact__label">GitHub</span>
+							<a class="contact__value" href="https://github.com/qqqrtochka" target="_blank"
+								rel="noreferrer">github.com/qqqrtochka</a>
+						</div>
+					</div>
+				</div>
+
+				<footer class="footer">
+					<div class="footer__inner">
+						<span class="footer__text">© <span data-year></span> Alexander Tanin</span>
+						<a class="nav__link" href="#top">Наверх</a>
+					</div>
+				</footer>
+			</div>
+		</section>
+	</main>
+
+	<!-- Grain / noise texture overlay -->
+	<svg class="noise-layer" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+		<filter id="grain">
+			<feTurbulence type="fractalNoise" baseFrequency="0.68" numOctaves="3" stitchTiles="stitch" result="noise"/>
+			<feColorMatrix type="saturate" values="0" in="noise"/>
+		</filter>
+		<rect width="100%" height="100%" filter="url(#grain)"/>
+	</svg>
+</body>
+
+</html>
